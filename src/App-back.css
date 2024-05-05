@@ -1,0 +1,119 @@
+/* 全体的なスタイル
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ヘッダーのスタイル
+.App-header {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.App-header select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+天気情報コンポーネントのスタイル
+.weather-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.weather-info h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.weather-info img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  margin-bottom: 5px;
+}
+
+現在天気のスタイル
+.current-weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+1週間予報のスタイル
+.forecast {
+  margin-bottom: 20px;
+}
+
+.forecast-day {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.forecast-day p {
+  margin: 0;
+}
+
+ローディングインジケーターのスタイル
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  border-top: 5px solid #3f51b5;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+エラーメッセージのスタイル
+.error {
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
+
+レスポンシブデザイン
+@media (max-width: 768px) {
+  .App-header select {
+    width: 100%;
+  }
+
+  .weather-info {
+    padding: 10px;
+  }
+} */
+
